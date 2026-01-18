@@ -2,104 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <script src="https://cdn.tailwindcss.com"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
     <title>Mahima Susan Bijoy</title>
 
-    <meta property="og:title" content="Mahima Susan Bijoy" />
-    <meta property="og:locale" content="en_US" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
-    <meta
-      name="description"
-      content="Business Analyst & Data Professional Portfolio"
-    />
-
-    <!-- ✅ FIXED favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png" />
 
-    <meta name="theme-color" content="#5540af" />
-
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-    <link
-      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
 
-    <!-- ✅ FIXED CSS -->
-    <link
-      rel="stylesheet"
-      href="assets/styles/main.min.css"
-      media="screen"
-    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/styles/main.min.css" media="screen" />
 
-    <script
-      defer
-      src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"
-    ></script>
+    <!-- Alpine JS -->
+    <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
 
-  <body
-    x-data="{ mobileMenu: false }"
-    :class="{ 'overflow-hidden max-h-screen': mobileMenu }"
-    class="relative"
-  >
+  <body x-data="{ mobileMenu: false }" :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative">
     <div id="main" class="relative">
 
-      <!-- HERO -->
-      <div
-        class="relative bg-cover bg-center bg-no-repeat py-8"
-        style="background-image: url('assets/images/bg-hero.jpg');"
-      >
+      <!-- HERO SECTION -->
+      <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('assets/images/bg-hero.jpg');">
         <div class="absolute inset-0 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to"></div>
 
         <div class="container relative z-10 pt-20 pb-12 sm:pt-56 sm:pb-48">
           <div class="flex flex-col items-center lg:flex-row">
             <div class="rounded-full border-8 border-primary shadow-xl">
-              <img
-                src="assets/images/author.jpg"
-                class="h-48 rounded-full sm:h-56"
-                alt="Mahima Susan Bijoy"
-              />
+              <img src="assets/images/author.jpg" class="h-48 rounded-full sm:h-56" alt="Mahima Susan Bijoy" />
             </div>
-
             <div class="pt-8 lg:pl-8">
               <h1 class="text-4xl text-white sm:text-5xl md:text-6xl">
                 Hello, I'm Mahima Susan Bijoy
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- EXPERIENCE BACKGROUND -->
-      <div
-        class="bg-cover bg-top bg-no-repeat pb-16 md:py-16"
-        style="background-image: url('assets/images/experience-figure.png');"
-      ></div>
-
-      <!-- SERVICES ICONS -->
-      <img src="assets/images/icon-development-black.svg" alt="" />
-      <img src="assets/images/icon-development-white.svg" alt="" />
-      <img src="assets/images/icon-content-black.svg" alt="" />
-      <img src="assets/images/icon-content-white.svg" alt="" />
-      <img src="assets/images/icon-graphics-black.svg" alt="" />
-      <img src="assets/images/icon-graphics-white.svg" alt="" />
-
-      <!-- FOOTER -->
-      <footer class="bg-primary py-6 text-center text-white">
-        Made with ❤️
-      </footer>
-    </div>
-
-    <!-- ✅ FIXED JS -->
-    <script src="assets/js/main.js"></script>
-  </body>
-</html>
