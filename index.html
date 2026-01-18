@@ -1,44 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Mahima Susan Bijoy</title>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Mahima Susan Bijoy | Portfolio</title>
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-    <!-- Boxicons -->
-    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
 
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="assets/styles/main.min.css" media="screen" />
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/styles/main.min.css" media="screen" />
 
-    <!-- Alpine JS -->
-    <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-  </head>
+  <!-- Alpine JS -->
+  <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
 
-  <body x-data="{ mobileMenu: false }" :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative">
-    <div id="main" class="relative">
+<body class="bg-gray-50 text-gray-800">
 
-      <!-- HERO SECTION -->
-      <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('assets/images/bg-hero.jpg');">
-        <div class="absolute inset-0 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to"></div>
+  <!-- MAIN CONTAINER -->
+  <div id="main">
 
-        <div class="container relative z-10 pt-20 pb-12 sm:pt-56 sm:pb-48">
-          <div class="flex flex-col items-center lg:flex-row">
-            <div class="rounded-full border-8 border-primary shadow-xl">
-              <img src="assets/images/author.jpg" class="h-48 rounded-full sm:h-56" alt="Mahima Susan Bijoy" />
-            </div>
-            <div class="pt-8 lg:pl-8">
-              <h1 class="text-4xl text-white sm:text-5xl md:text-6xl">
-                Hello, I'm Mahima Susan Bijoy
+    <!-- ======= HERO / ABOUT ME ======= -->
+    <section class="min-h-screen flex flex-col items-center justify-center text-center bg-gradient-to-r from-purple-600 to-indigo-600 text-white py-16">
+      <img src="assets/images/author.jpg" alt="Mahima Susan Bijoy" class="w-40 h-40 sm:w-56 sm:h-56 rounded-full border-4 border-white shadow-lg mb-6" />
+      <h1 class="text-4xl sm:text-5xl font-bold mb-4">Hello, I'm Mahima Susan Bijoy</h1>
+      <p class="text-lg sm:text-xl mb-6">Business Analyst & Research Assistant</p>
+      <a href="https://www.linkedin.com/in/mahimasusanbijoy/" target="_blank" class="px-6 py-3 bg-white text-purple-600 font-semibold rounded shadow hover:bg-gray-100 transition">
+        Let's Connect
+      </a>
+    </section>
+
+    <!-- ======= WHO AM I ======= -->
+    <section class="py-16 px-6 max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8 text-purple-700">Who Am I?</h2>
+      <p class="text-gray-700 text-lg leading-relaxed mb-4">
+        I am a Research Assistant and Business Analyst with a strong background in data analytics, visualization, and reporting. I hold a Post Graduate Diploma in Business Analytics and Project Management from Seneca College and a Bachelor’s degree in Electrical Engineering Technology. I thrive at the intersection of data, technology, and business, using insights to drive informed decisions and meaningful outcomes.
+      </p>
+      <p class="text-gray-700 text-lg leading-relaxed mb-4">
+        Currently, I contribute to multiple government-funded research projects at Seneca, where I collect, analyze, and visualize complex datasets, track KPIs, and create comprehensive reports. My work spans areas such as sustainability, energy analysis, and applied research, with a focus on translating data into actionable insights.
+      </p>
+      <p class="text-gray-700 text-lg leading-relaxed">
+        Previously, I have worked as a Business Analyst, automating processes, and collaborating with teams to enhance system efficiency. I have experience in Python, SQL, Tableau, and machine learning, and I enjoy applying these skills to solve real-world challenges.
+      </p>
+    </section>
+
+    <!-- ======= MY PROJECTS ======= -->
+    <section class="bg-gray-100 py-16 px-6">
+      <h2 class="text-3xl font-bold text-center mb-12 text-purple-700">My Projects</h2>
+
+      <div class="max-w-5xl mx-auto grid gap-8 sm:grid-cols-1 md:grid-cols-2">
+
+        <!-- Project 1 -->
+        <div class="bg-white rounded shadow p-6">
+          <h3 class="font-semibold text-xl mb-3">Beverage Item Hierarchy Resolution</h3>
+          <p class="text-gray-700 text-sm leading-relaxed">
+            Resolved item hierarchy issues within the Beverage sector by restructuring source and dependent tables using SQL and validating data through Power BI refreshes, ensuring precise analysis at the category and sub-category levels for business users.
+          </p>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-white rounded shadow p-6">
+          <h3 class="font-semibold text-xl mb-3">Budget & Margin Dashboards</h3>
+          <p class="text-gray-700 text-sm leading-relaxed">
+            Developed Budget and Margin dashboards in Power BI for FY2025–26 within three days, focusing on data standardization to enhance decision-making efficiency.
+          </p>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-white rounded shadow p-6">
+          <h3 class="font-semibold text-xl mb-3">Sales Impact Analysis</h3>
+          <p class="text-gray-700 text-sm leading-relaxed">
+            Analyzed sales impact of Slim Coolers across 1,984 sites using A/B testing and predictive analysis, visualizing key metrics—sales, units, customer traffic, and market share for targeted subcategories.
+          </p>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="bg-white rounded shadow p-6">
+          <h3 class="font-semibold text-xl mb-3">Market Basket Analysis & Reporting</h3>
+          <p class="text-gray-700 text-sm leading-relaxed">
+            Executed Market Basket Analysis using the Test & Learn tool and performed ad-hoc analyses to optimize Power BI dashboards, providing actionable insights and strategic recommendations to stakeholders.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= FOOTER ======= -->
+    <footer class="bg-purple-700 py-6 text-center text-white">
+      &copy; 2026 Mahima Susan Bijoy. All rights reserved.
+    </footer>
+
+  </div>
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
